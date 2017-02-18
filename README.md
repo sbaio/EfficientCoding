@@ -1,2 +1,2 @@
 # EfficientCoding
-A repository for challenging python algorithms
+A repository for stimulating python algorithms
