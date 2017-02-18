@@ -8,17 +8,9 @@ from matplotlib import pyplot as plt
 import os
 import glob
 
-
-cv2.destroyAllWindows()
-#  ------> Please change this path 
-main_dir = '/Users/Sbaio/Desktop/technical_test'
-binary_images_path = os.path.join(main_dir,'binary_images/')
-
-
-image_list = []
-
 # load the images
-for filename in glob.glob(binary_images_path+'*.png'):
+image_list = []
+for filename in glob.glob('images/*.png'):
 	im=cv2.imread(filename,0)
 	image_list.append(im)
 
